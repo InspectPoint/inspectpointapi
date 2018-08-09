@@ -65,6 +65,68 @@ Retrieve, create, and edit buildings
 
 ## Example
 ```
+ curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings\
+     -X GET \
+     -H 'Content-Type: application/json' \
+     -H 'Api-Key: API_KEY_HERE' \
+     -d
+```
+
+## Request Attributes
+Parameter Name | Required | Data Type
+-------------- | -------------- | --------------
+name | Required | String
+address1 | Required | String
+address2 | Required | String
+city | Required | String
+state | Required | String
+zip | Required | String
+notes | Required | String
+number_of_floors | Required | String
+travel_time_minutes | Required | String
+reference_number | Required | String
+state | Required | String
+zip | Required | String
+notes | Required | String
+billing_address1 | Required | String
+billing_address2 | Required | String
+billing_city | Required | String
+billing_state | Required | String
+billing_zip | Required | String
+contract_start_date | Required | String
+contract_expiration_date | Required | String
+monitoring_entity_contact_name | Required | String
+monitoring_entity_telephone | Required | String
+monitoring_entity_ref_no | Required | String
+monitoring_entity_type_transmission | Required | String
+building_number | Required | String
+site_identification | Required | String
+contract_type | Required | String
+internal_office_notes | Required | String
+sales_person | Required | String
+building_number | Required | String
+building_number | Required | String
+
+
+## Example Response
+
++ Response 200 (application/json)
+```json
+{  
+   "building":
+      {  
+         "id":146,
+         "name":"Free Pizza",
+      }  
+}
+```
+
+# UPDATE BUILDING
+## HTTP Method
+##### POST  /external/api/v1/buildings/id
+
+## Example
+```
  curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings/${building_id} \
      -X GET \
      -H 'Content-Type: application/json' \
@@ -75,7 +137,37 @@ Retrieve, create, and edit buildings
 ## Request Attributes
 Parameter Name | Required | Data Type
 -------------- | -------------- | --------------
-Name | Required | String
+name | Required | String
+address1 | Required | String
+address2 | Required | String
+city | Required | String
+state | Required | String
+zip | Required | String
+notes | Required | String
+number_of_floors | Required | String
+travel_time_minutes | Required | String
+reference_number | Required | String
+state | Required | String
+zip | Required | String
+notes | Required | String
+billing_address1 | Required | String
+billing_address2 | Required | String
+billing_city | Required | String
+billing_state | Required | String
+billing_zip | Required | String
+contract_start_date | Required | String
+contract_expiration_date | Required | String
+monitoring_entity_contact_name | Required | String
+monitoring_entity_telephone | Required | String
+monitoring_entity_ref_no | Required | String
+monitoring_entity_type_transmission | Required | String
+building_number | Required | String
+site_identification | Required | String
+contract_type | Required | String
+internal_office_notes | Required | String
+sales_person | Required | String
+building_number | Required | String
+building_number | Required | String
 
 ## Example Response
 
