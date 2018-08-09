@@ -7,15 +7,15 @@ Retrieve, create, and edit buildings
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings \
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/buildings \
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
 ```
 
 ## Parameters
-offset (defaults to 0)
-limit  (defaults to 50)
++ offset (defaults to 0)
++ limit  (defaults to 50)
 
 ## Example Response
 
