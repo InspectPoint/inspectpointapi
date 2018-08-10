@@ -23,14 +23,44 @@ Retrieve, create, and edit buildings
 ```json
 {  
    "buildings":[  
-      {  
-         "id":146,
-         "name":"Free Pizza",
-      },
-      {  
+     {
+         "id": 16,
+         "name": "Advanced Tire Warehouse",
+         "zip": "12657",
+         "address1": "5 Tire Way",
+         "address2": "",
+         "city": "Tiretown",
+         "state": "NY",
+         "notes": "park in back. enter through loading dock",
+         "number_of_floors": null,
+         "building_number": "54321",
+         "latitude": 40.653947,
+         "longitude": -73.576772,
+         "site_identification": "",
+         "monitoring_entity_contact_name": "",
+         "monitoring_entity_telephone": "",
+         "monitoring_entity_ref_no": "",
+         "monitoring_entity_type_transmission": ""
+     },
+     {  
          "id":121,
-         "name":"$5.00 off",         
-      }
+         "name": "Troy Innovation Garage",
+         "zip": "12180",
+         "address1": "24 Fake ST",
+         "address2": "",
+         "city": "Troy",
+         "state": "NY",
+         "notes": "Access code 12345",
+         "number_of_floors": null,
+         "building_number": "12345",
+         "latitude": 40.653947,
+         "longitude": -73.576772,
+         "site_identification": "",
+         "monitoring_entity_contact_name": "",
+         "monitoring_entity_telephone": "",
+         "monitoring_entity_ref_no": "",
+         "monitoring_entity_type_transmission": ""        
+    }
    ]
 }
 ```
@@ -52,10 +82,25 @@ Retrieve, create, and edit buildings
 ```json
 {  
    "building":
-      {  
-         "id":146,
-         "name":"Free Pizza",
-      }  
+   {  
+       "id":121,
+       "name": "Troy Innovation Garage",
+       "zip": "12180",
+       "address1": "24 Fake ST",
+       "address2": "",
+       "city": "Troy",
+       "state": "NY",
+       "notes": "Access code 12345",
+       "number_of_floors": null,
+       "building_number": "12345",
+       "latitude": 40.653947,
+       "longitude": -73.576772,
+       "site_identification": "",
+       "monitoring_entity_contact_name": "",
+       "monitoring_entity_telephone": "",
+       "monitoring_entity_ref_no": "",
+       "monitoring_entity_type_transmission": ""        
+  }  
 }
 ```
 
@@ -114,10 +159,25 @@ building_number | Required | String
 ```json
 {  
    "building":
-      {  
-         "id":146,
-         "name":"Free Pizza",
-      }  
+     {  
+         "id":121,
+         "name": "Troy Innovation Garage",
+         "zip": "12180",
+         "address1": "24 Fake ST",
+         "address2": "",
+         "city": "Troy",
+         "state": "NY",
+         "notes": "Access code 12345",
+         "number_of_floors": null,
+         "building_number": "12345",
+         "latitude": 40.653947,
+         "longitude": -73.576772,
+         "site_identification": "",
+         "monitoring_entity_contact_name": "",
+         "monitoring_entity_telephone": "",
+         "monitoring_entity_ref_no": "",
+         "monitoring_entity_type_transmission": ""        
+    }  
 }
 ```
 
@@ -175,9 +235,24 @@ building_number | Required | String
 ```json
 {  
    "building":
-      {  
-         "id":146,
-         "name":"Free Pizza",
+       {  
+           "id":121,
+           "name": "Troy Innovation Garage",
+           "zip": "12180",
+           "address1": "24 Fake ST",
+           "address2": "",
+           "city": "Troy",
+           "state": "NY",
+           "notes": "Access code 12345",
+           "number_of_floors": null,
+           "building_number": "12345",
+           "latitude": 40.653947,
+           "longitude": -73.576772,
+           "site_identification": "",
+           "monitoring_entity_contact_name": "",
+           "monitoring_entity_telephone": "",
+           "monitoring_entity_ref_no": "",
+           "monitoring_entity_type_transmission": ""        
       }  
 }
 ```
