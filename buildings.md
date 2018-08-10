@@ -127,8 +127,8 @@ city | Required | String
 state | Required | String
 zip | Required | String
 notes | Required | String
-number_of_floors | Required | String
-travel_time_minutes | Required | String
+number_of_floors | Required | Integer
+travel_time_minutes | Required | Integer
 reference_number | Required | String
 state | Required | String
 zip | Required | String
@@ -138,8 +138,8 @@ billing_address2 | Required | String
 billing_city | Required | String
 billing_state | Required | String
 billing_zip | Required | String
-contract_start_date | Required | String
-contract_expiration_date | Required | String
+contract_start_date | Required | Date
+contract_expiration_date | Required | Date
 monitoring_entity_contact_name | Required | String
 monitoring_entity_telephone | Required | String
 monitoring_entity_ref_no | Required | String
@@ -149,7 +149,6 @@ site_identification | Required | String
 contract_type | Required | String
 internal_office_notes | Required | String
 sales_person | Required | String
-building_number | Required | String
 building_number | Required | String
 
 
@@ -204,8 +203,8 @@ city | Required | String
 state | Required | String
 zip | Required | String
 notes | Required | String
-number_of_floors | Required | String
-travel_time_minutes | Required | String
+number_of_floors | Required | Integer
+travel_time_minutes | Required | Integer
 reference_number | Required | String
 state | Required | String
 zip | Required | String
@@ -215,8 +214,8 @@ billing_address2 | Required | String
 billing_city | Required | String
 billing_state | Required | String
 billing_zip | Required | String
-contract_start_date | Required | String
-contract_expiration_date | Required | String
+contract_start_date | Required | Date
+contract_expiration_date | Required | Date
 monitoring_entity_contact_name | Required | String
 monitoring_entity_telephone | Required | String
 monitoring_entity_ref_no | Required | String
@@ -226,7 +225,6 @@ site_identification | Required | String
 contract_type | Required | String
 internal_office_notes | Required | String
 sales_person | Required | String
-building_number | Required | String
 building_number | Required | String
 
 ## Example Response
