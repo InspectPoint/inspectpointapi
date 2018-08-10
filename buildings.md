@@ -70,7 +70,7 @@ Retrieve, create, and edit buildings
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings/${building_id} \
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/buildings/${building_id} \
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
@@ -110,7 +110,7 @@ Retrieve, create, and edit buildings
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings\
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/buildings\
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
@@ -186,7 +186,7 @@ building_number | Required | String
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/buildings/${building_id} \
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/buildings/${building_id} \
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \

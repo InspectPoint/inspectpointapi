@@ -51,7 +51,7 @@ Retrieve, create, and edit contacts
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/contacts/${contact_id} \
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/contacts/${contact_id} \
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
@@ -81,7 +81,7 @@ Retrieve, create, and edit contacts
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/contacts\
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/contacts\
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
@@ -131,7 +131,7 @@ company | Required | String
 
 ## Example
 ```
- curl https://${tenant_subdomain}.inspectpoint.com/public/api/v1/contacts/${building_id} \
+ curl https://${tenant_subdomain}.inspectpoint.com/external/api/v1/contacts/${contact_id} \
      -X GET \
      -H 'Content-Type: application/json' \
      -H 'Api-Key: API_KEY_HERE' \
