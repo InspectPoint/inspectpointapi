@@ -3,3 +3,4 @@ The Inspect Point API is an API that interacts with the Inspect Point suite of p
 
 * [Buildings] (buildings.md)
 * [Contact] (contacts.md)
+* [Inspection] (inspections.md)
