@@ -225,7 +225,7 @@ site_identification | Required | String
 contract_type | Required | String
 internal_office_notes | Required | String
 sales_person | Required | String
-building_number | Required | String
+
 
 ## Example Response
 
