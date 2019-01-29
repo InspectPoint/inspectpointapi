@@ -15,7 +15,7 @@ Retrieve, create, and edit buildings
 
 ## Parameters
 + offset (defaults to 0)
-+ limit  (defaults to 50)
++ max  (defaults to 50)
 
 ## Example Response
 
